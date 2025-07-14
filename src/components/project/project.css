@@ -1,0 +1,11 @@
+.projects{
+    width:100vw;
+    height:cal(100vh - 4rem);
+    max-width:70rem;
+    margin:0 auto;
+    position: relative;
+}
+.projects h2:hover{
+       padding-bottom:0.5rem;
+       border-bottom:2px solid aqua;
+}

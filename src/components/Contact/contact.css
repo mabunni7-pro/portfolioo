@@ -1,0 +1,35 @@
+.contacts{
+    width:100vw;
+    height:cal(100vh - 4rem);
+    max-width:80rem;
+    margin:0 auto;
+    overflow:hidden;
+    position:relative;
+    border:transparent;
+}
+.get{
+    background-color:grey;
+    width:80%;
+    height:100px;
+    display: flex;
+    padding:30px;
+}
+.get img{
+    border-radius: 50%;
+    width:40px;
+    height:40px;
+}
+.get h2,p{
+    padding:5px;
+    width:100vw;
+
+}
+.end{
+    display: flex;
+    
+}
+.end img{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+}

@@ -1,0 +1,60 @@
+.resumecontainer{
+    height:cal(100vh - 4rem);
+    width:100vw;
+    max-width:70rem;
+    margin:0 auto;
+    overflow:hidden;
+    position:relative;
+}
+.name{
+    padding:10px;
+    font-size: 2rem;
+    font-weight:bold;
+}
+.name:hover{
+    padding-bottom: 0.5rem;
+    border-bottom:1px solid aqua;
+}
+.timeline-row {
+  display: flex;
+  align-items: flex-start;
+  margin: 10px 0;
+}
+
+.timeline-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 200px;
+  position: relative;
+  margin-right: 20px;
+}
+
+.timeline-circle {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 3px solid aqua;
+  background-color: white;
+  z-index: 1;
+}
+
+.timeline-line {
+  width: 3px;
+  flex-grow: 1;
+  background-color: aqua;
+  margin-top: 0;
+}
+
+.content {
+  margin: 5px 0 0;
+  color:rgb(99, 99, 99);
+}
+.content h3 {
+  margin: 0;
+  font-size: 18px;
+  color:#636363;
+}
+.content h4{
+  font-weight:rgb(99,99,99);
+}

@@ -1,0 +1,27 @@
+.aboutsection{
+    height:cal(100vh - 4rem);
+    width:100vw;
+    max-width:70rem;
+    margin:0 auto;
+    overflow:hidden;
+    position:relative;
+}
+.aboutt{
+    color:aqua;
+    padding:10px;
+    font-size: 2rem;
+    font-weight:bold;
+}
+.aboutt:hover{
+     padding-bottom: 0.5rem;
+    border-bottom:1px solid aqua;
+}
+.paragraph{
+    padding:20px;
+    
+
+}
+.imge{
+    border-radius: 50%;
+}
+
