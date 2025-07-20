@@ -1,6 +1,6 @@
 {
   "name": "my-portfolio",
-  "homepage": "https://github.com/Mabunni-77/portfolio.git",
+  "homepage": "https://github.com/mabuni7-pro/portfolioo.git",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,10 +9,11 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "gh-pages": "^6.3.0",
     "install": "^0.13.0",
     "react": "^19.1.0",
